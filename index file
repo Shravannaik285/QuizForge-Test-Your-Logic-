@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizForge AI-style Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>QuizForge Test Your Logic!</h1>
+
+        <div class="question-area">
+            Question will appear here....
+        </div>
+        <div class="option-area"></div>
+
+        <div id="result-area" style="display:none;">
+            <h2>Quiz Completed!</h2>
+            <p id="score">Your score will appear here.</p>
+            <button id="restart">Restart 🔁</button>
+        </div>
+
+    </div>
+</body>
+</html>
